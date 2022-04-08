@@ -8,7 +8,7 @@
   ],
   "logo": "https://telegra.ph/file/2bfb27c927ef42d4da416.jpg",
   "success_url": "https://telegram.dog/boDecorationBot",
-  "website": "https://github.com/Bottom-T/Stylish-Text",
+  "website": "https://github.com/C2BoT/Stylish-Text",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
