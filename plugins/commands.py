@@ -13,8 +13,8 @@ async def start(c, m):
     # start text
     text = f"""𝗛𝗲𝘆 {m.from_user.mention(style='md')},
 
-𝘄𝗿𝗶𝘁𝗲 𝗬𝗼𝘂𝗿 𝗻𝗮𝗺𝗲 𝗘𝗻𝗴𝗹𝗶𝘀𝗵
-     𝘀𝗲𝗻𝗱 𝗻𝗮𝗺𝗲 𝗘𝗻𝗴𝗹𝗶𝘀𝗵 
+𝘀𝗲𝗻𝗱 𝘆𝗼𝘂𝗿 𝗻𝗮𝗺𝗲 𝗘𝗻𝗴𝗹𝗶𝘀𝗵 
+
 **🧸𝗯𝘆:** {owner.mention(style='md')}
 """
 
@@ -24,7 +24,7 @@ async def start(c, m):
             InlineKeyboardButton('𝗡𝗲𝘄 𝗬𝗼𝗿𝗸', url=f"https://t.me/us7a5")
         ],
         [
-            InlineKeyboardButton('𝗗𝗲𝗰𝗼𝗿𝗮𝘁𝗶𝗼𝗻 𝗕𝗼𝘁 ⛄', url='https://t.me/boDecorationBot')
+            InlineKeyboardButton('𝘀𝘁𝘆𝗹𝗶𝘀𝗵 𝗕𝗼𝘁 ⛄', url='https://t.me/boDecorationBot')
         ]
     ]
     await m.reply_text(
